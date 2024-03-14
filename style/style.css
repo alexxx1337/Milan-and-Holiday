@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+.wrap {
+    background-image: url('../img/background1.png');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo:hover h2 {
+    color: #F26522;
+
+}
+
+.logo:hover p {
+    color: #F26522;
+
+}
+
+.logo:hover img {
+    content: url('../img/logo\ .svg');
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.contacts:hover {
+    color: #F26522;
+}
+
+.contacts-wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.main-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.main-list h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-list img {
+    width: 100%;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hover-wraper {
+    background-color: #F26522;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 17%;
+    right: 0;
+    left: 0;
+    display: none;
+}
+
+.hover-wraper p {
+    color: #fff;
+}
+
+.hover-from {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.hover-ar {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.hover-details {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.hover-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.hover-right{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.main-item{
+    position: relative;
+    cursor: pointer;
+}
+.main-item img{
+max-width: 100%;
+
+}
+.main-item:hover h4{
+color: #F26522;
+}
+.main-item:hover .hover-wraper{
+    display: flex;
+}
+.hover-details{
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+} 
+
+
+
+
+
+
+
+
